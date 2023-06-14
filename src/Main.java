@@ -13,5 +13,14 @@ public class Main {
 
         House house1 = new House();
         House house2 = new House();
+
+        house1.address = "Via Palermo";
+        house1.numberOfRooms = 8;
+        house1.numberOfFloors = 2;
+
+        house2.address = "Via Napoli";
+        house2.numberOfRooms = 4;
+        house2.numberOfFloors = 1;
+
     }
 }

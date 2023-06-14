@@ -4,6 +4,7 @@ public class House {
     int numberOfFloors;
 
     House(){
+
         System.out.println("A new House has been created");
     }
 }

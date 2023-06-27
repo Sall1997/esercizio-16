@@ -11,16 +11,7 @@ Create a class called House that has 3 instance variables:
 public class Main {
     public static void main(String[] args) {
 
-        House house1 = new House();
-        House house2 = new House();
-
-        house1.address = "Via Palermo";
-        house1.numberOfRooms = 8;
-        house1.numberOfFloors = 2;
-
-        house2.address = "Via Napoli";
-        house2.numberOfRooms = 4;
-        house2.numberOfFloors = 1;
-
+        House house1 = new House("Via Palermo", 8, 2);
+        House house2 = new House("Via Napoli", 4, 1);
     }
 }
